@@ -23,7 +23,7 @@ void reverse(char s[]) {
 }
 
 void reverseRec(char s[], int start, int finish) {
-    // если start < finish - меняем местами первый ипоследний символы и продолжаем с "внутренней частью строки"
+    // если start < finish - меняем местами первый и последний символы и продолжаем с "внутренней частью строки"
     if (start<finish) {
         char t = s[start]; s[start] = s[finish]; s[finish] = t;
         reverseRec(s, start+1, finish-1);
