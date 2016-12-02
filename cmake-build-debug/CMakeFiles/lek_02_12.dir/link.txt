@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/lek_02_12.dir/main.cpp.o  -o lek_02_12.exe -Wl,--out-implib,liblek_02_12.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
